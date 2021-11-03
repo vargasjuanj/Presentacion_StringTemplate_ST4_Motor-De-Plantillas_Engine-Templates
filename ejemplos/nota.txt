@@ -1,0 +1,5 @@
+Para ejecutar archivo
+
+-Compilamos el arhivo con javac nombreDelArchivo.java en la terminal
+
+-Y lo ejecutamos con java nombreDelArchvo

@@ -1,0 +1,24 @@
+delimiters "$", "$"
+
+import "estilo.st"
+
+raiz(nombre,nombreArchivo)::= <<
+
+<!doctype html> <!- indica que es html 5 -->
+<html>
+
+	<head>
+<link rel=stylesheet href="$nombreArchivo$.css" type="text/css">
+	</head>
+
+
+	<body>
+		<b id="nombre"> $nombre$ <b>
+	</body>
+
+</html>
+
+
+
+
+>>

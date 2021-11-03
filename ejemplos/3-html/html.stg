@@ -1,0 +1,18 @@
+delimiters "$", "$"
+
+raiz(nombre)::= <<
+
+<!doctype html> <!- indica que es html 5 -->
+<html>
+
+	<head>
+
+	</head>
+
+	<body>
+		<b> $nombre$ <b>
+	</body>
+
+</html>
+
+>>

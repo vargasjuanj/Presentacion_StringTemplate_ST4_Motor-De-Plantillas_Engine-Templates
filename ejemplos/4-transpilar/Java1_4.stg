@@ -1,0 +1,12 @@
+// Java1_4.stg
+class(name, members, otros) ::= <<
+
+class <name> {
+    <members>
+}
+<otros; separator=",">
+>>
+ 
+constants(typename, names) ::= "<names:{n | <constant(n,i)>}; separator={<\n>}>"
+ 
+constant(n, i) ::= "public static final int <typename>_<n>=<i>;"
